@@ -4,24 +4,64 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a
+    background-color: #f4ecdc;
 }
 
 li, a, button {
     font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
-    color: #ecf0f1;
+    color: #395f50;
     text-decoration: none;
 }
 
 .nav-logo {
-    width: 100px;
+    width: 60px;
+    cursor: pointer;
+    margin-left: 1vw;
+    margin-right: auto;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px, 10%;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #c6c1b5;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(129,88,172,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin-right: 1vw;
+}
+
+button:hover {
+    background-color: #6c4c8a;
+}
+
+.logo-header-box {
+    background: #395f50 url("Graphics/sacred-belly-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    height: 500px;
 }
