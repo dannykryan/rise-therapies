@@ -1,16 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #395f50;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    color: #395f50;
+}
+
+.hidden {
+    display: none;
+    color: #6c4c8a;
+}
+
 body {
     box-sizing: border-box;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     background-color: #f4ecdc;
-    margin: 0 20% 0 20%;
+    /* margin: 0 20% 0 20%; */
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
 }
 
 li, a, button {
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     color: #395f50;
     text-decoration: none;
@@ -31,7 +52,7 @@ header {
 
 .nav-links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .nav-links li a {
@@ -70,7 +91,7 @@ button:hover {
 }
 
 .logo-header-box-1 {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -84,19 +105,9 @@ button:hover {
     margin-top: 2em;
 }
 
-h2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
-h3 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-}
-
 .hi {
     color: #395f50;
+    margin-top: 10px;
 }
 
 .tagline {
@@ -108,11 +119,6 @@ h3 {
     font-weight: 300;
 }
 
-.logo-header-box-2 {
-    width: 50%;
-    height: 250px;
-}
-
 /* END OF FIRST SECTION */
 /* HI, I'M GEMMA */
 
@@ -121,12 +127,17 @@ h3 {
     flex-direction: row;
     height: 250px;
     padding: 20px;
+    margin-top: 10px;
+}
+
+.logo-header-box-2 {
+    height: 250px;
 }
 
 .gem-and-sons {
     height: 250px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,31 +146,108 @@ h3 {
 
 .signed-text {
     color: #395f50;
+    font-size: 19px;
 }
 
 .signature {
     height: 50px;
 }
 
-.body-links-block {
-    background-color: #395f50;
+/* GREEN BODY LINKS BLOCK */
+
+.header-divider {
+    background-image: url("Graphics/sacred-banner-wide.png");
+    background-position: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
+    height: 75px;
+    color: #fff9ed;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-.body-links li {
-    display: inline-block;
-    padding: 0px 20px;
-    
+.block-header {
+    color: #fff9ed;
 }
 
-.body-links li a {
-    transition: all 0.3s ease 0s;
-    color: #c6c1b5;
+/* END OF GREEN BODY LINKS BLOCK */
+/* TREATMENTS */
+
+.price {
+    text-align: center;
+    color: #395f50;
 }
 
-.body-links li a:hover {
-    color: #c6c1b5;
+.treatment-header {
+    text-decoration: underline;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#treatments img {
+    width: 40%;
+}
+
+#packages img {
+    width: 40%;
+}
+
+.treatment-outer {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff9ed;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.treatment-outer img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.treatment-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    max-width: 50%;
+}
+
+.pricing {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: inline-row;
+    align-items: center;
+}
+
+.pricing button {
+    margin-left: 20px;
+}
+
+.long-image {
+    background-image: url("graphics/massage-closeup.jpg");
+    background-position: center;
+    background-size: 500px;
+    width: 50%;
+    margin: 40px 20px 40px 20px;
+    filter: drop-shadow(0 0 0.5rem #7d7b73);
+}
+
+.long-image2 {
+    background-image: url("graphics/magic-bowls.jpg");
+    background-position: center;
+    background-size: 500px;
+    width: 50%;
+    margin: 40px 20px 40px 20px;
+    filter: drop-shadow(0 0 0.5rem #7d7b73);
 }
