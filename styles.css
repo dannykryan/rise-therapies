@@ -235,7 +235,7 @@ button:hover {
 }
 
 .long-image {
-    background-image: url("graphics/massage-closeup.jpg");
+    background-image: url("./Graphics/massage-closeup.jpg");
     background-position: center;
     background-size: 500px;
     width: 50%;
@@ -244,7 +244,7 @@ button:hover {
 }
 
 .long-image2 {
-    background-image: url("graphics/magic-bowls.jpg");
+    background-image: url("./Graphics/magic-bowls.jpg");
     background-position: center;
     background-size: 500px;
     width: 50%;
