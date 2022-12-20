@@ -26,7 +26,6 @@ body {
     /* margin: 0 20% 0 20%; */
     display: flex;
     flex-direction: column;
-    width: 1000px;
 }
 
 li, a, button {
@@ -165,7 +164,7 @@ button:hover {
     color: #fff9ed;
     font-size: 30px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .block-header {
@@ -195,6 +194,20 @@ button:hover {
     width: 40%;
 }
 
+.section-subheading {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+}
+
+.section-subheading:first-child {
+    margin-bottom: 0px;
+}
+
+
 .treatment-outer {
     display: flex;
     flex-direction: row;
@@ -204,6 +217,7 @@ button:hover {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 .treatment-outer img {
     margin-left: auto;
@@ -250,4 +264,10 @@ button:hover {
     width: 50%;
     margin: 40px 20px 40px 20px;
     filter: drop-shadow(0 0 0.5rem #7d7b73);
+}
+
+@media (min-width: 1000px) {
+    body{
+        width: 1000px;
+    }
 }
