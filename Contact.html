@@ -22,34 +22,33 @@
         </nav>
         <a class="cta" href="Contact.html"><button>Contact</button></a>
     </header>
-    <h1>Contact Form</h1>
-    <span class="contact-subheading"><p>If you have any questions, please enter them in the form below and I'll get back to you as soon as I can.</p></span>
-
     <div class="container">
 		<div class="contact-box">
-			<div class="left"></div>
-			<div class="right">
-                <form action="https://formsubmit.co/your@email.com" method="POST">
+                <form action="https://formsubmit.co/1ed2722df3430241fe64d19c0ba4e64b" method="POST">
                     <h2>Contact Me</h2>
-                    <input name ="nam" type="text" id="name" class="field" placeholder="Your Name" required>
-                    <input type="email" id="email" class="field" placeholder="Your Email" required>
-                    <input type="text" id="phone" class="field" placeholder="Phone Number" required>
-                    <textarea id="message" placeholder="How can I help?" class="field"></textarea>
+                    <input name ="Name" type="text" id="name" class="field" placeholder="Your Name" required>
+                    <input name="Email" type="email" id="email" class="field" placeholder="Your Email" required>
+                    <input name="Phone Number" type="number" id="phone" class="field" placeholder="Phone Number" required>
+                    <input name="Weeks Pregnant" type="number" id="weeks" class="field" placeholder="How many weeks pregnant are you?" required>
+                    <input name="Previous Children" type="number" id="children" class="field" placeholder="How many children have you had previously?" required>
+                    <textarea name="Previous Deliveries" id="delivery" placeholder="If this is not your first pregnancy, what type of delivery did you have with your previous baby?" class="field"></textarea>
+                    <textarea name="Health Issues" id="issues" placeholder="Do you have any health issues that affect your pregnancy?" class="field"></textarea>
+                    <textarea name="Planned Delivery location" id="where" placeholder="Where do you plan to have your baby?" class="field"></textarea>
+                    <input type="hidden" name="_next" value="https://rise-therapies.co.uk/thanks">
                     <button class="btn">Send</button>
                 </form>
-			</div>
 		</div>
 	</div>
 
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
           function sendEmail() {
             Email.send({
                 Host : "smtp.gmail.com",
-                Username : "dannykryan@gmail.com",
-                Password : "6463j4yjvw3",
-                To : 'dannykryan@gmail.com',
+                Username : "rise.gemma@gmail.com",
+                Password : "RiseGemma22",
+                To : 'rise.gemma@gmail.com',
                 From : document.getElementById("email").value,
                 Subject : "New Website Enquiry",
                 Body : "this is wher it says body"
@@ -57,7 +56,7 @@
             message => alert(message)
             );
           }
-    </script>
+    </script> -->
 
 </body>
 </html>

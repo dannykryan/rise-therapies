@@ -54,16 +54,6 @@ h1 {
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
-.left{
-	background: url("/Graphics/massage-closeup.jpg") no-repeat center;
-	background-size: cover;
-	height: 100%;
-}
-
-.right{
-	padding: 25px 40px;
-}
-
 h2{
 	position: relative;
 	padding: 0 0 10px;
@@ -122,6 +112,12 @@ textarea{
     background-color: #fff;
 }
 
+.contact-box{
+  grid-template-columns: 1fr;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 880px){
 	.contact-box{
 		grid-template-columns: 1fr;
@@ -129,4 +125,10 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+@media (min-width: 1000px) {
+  body{
+      width: 1000px;
+  }
 }
