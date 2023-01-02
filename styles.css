@@ -303,6 +303,43 @@ button:hover {
     background-repeat: no-repeat;
 }
 
+/* ABOUT ME PAGE */
+
+.gemma-pic1 {
+    background-image: url("./Graphics/gemma-and-sons.png");
+    background-position: 50% 17%;
+    background-size: 500px;
+    width: 50%;
+    margin: 40px 20px 40px 20px;
+    filter: drop-shadow(0 0 0.5rem #7d7b73);
+}
+
+.about-me-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
 @media (min-width: 1000px) {
     body{
         width: 1000px;
@@ -376,39 +413,26 @@ button:hover {
     }
 }
 
-/* ABOUT ME PAGE */
+@media (max-width: 850px) {
+    
+    .about-me-1 {
+        flex-direction: column-reverse;
+    }
 
-.gemma-pic1 {
-    background-image: url("./Graphics/massage-closeup.jpg");
-    background-position: center;
-    background-size: 500px;
-    width: 50%;
-    margin: 40px 20px 40px 20px;
-    filter: drop-shadow(0 0 0.5rem #7d7b73);
-}
+    .gemma-pic1 {
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: 50% 17%;
+        background-size: 400px;
+        min-width: 400px;
+    }
 
-.about-me-1 {
-    display: flex;
-    flex-direction: row;
-}
+    .about-me-2 {
+        max-width: 100%;
+    }
 
-.about-me-2 {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-}
-
-.about-container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-
-.thanks {
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
+    .about-container {
+        text-align: center;
+    }
 }
