@@ -458,5 +458,11 @@ button:hover {
 
     #antenatal-text {
         max-width: 650px;
+        text-align: center;
+    }
+
+    #antenatal-price {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
