@@ -28,7 +28,7 @@ body {
     flex-direction: column;
 }
 
-li, a, button {
+li, .navlink, button {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -208,14 +208,14 @@ button:hover {
     margin-top: 0px;
 }
 
-.call-now-block {
+.contact-block {
     max-width: 750px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.call-now {
+.contact-text {
     background-color: #6c4c8a;
     color: #FFF9ED;
     font-size: 30px;
@@ -223,12 +223,16 @@ button:hover {
     padding: 7px;
 }
 
+.contact-link {
+    color: #FFF9ED;
+}
+
 .call-now, h3 {
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.call-body {
+.contact-body {
     color: #6c4c8a;
 }
 
