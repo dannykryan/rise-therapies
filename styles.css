@@ -317,11 +317,16 @@ button:hover {
 
     .logo-header-box {
         background-position: center;
-        background-image: url("./graphics/green-flower-bg.jpg")
+        background-image: url("./graphics/green-flower-bg.jpg");
+        background-size: 500px;
     }
 
     .logo-header-box-1 {
         width: 100%;
+    }
+
+    .hi {
+        margin-bottom: 0px;
     }
 
     .im-gem-box{
@@ -347,6 +352,7 @@ button:hover {
     .treatment-container {
         max-width: 100%;
         text-align: center;
+        padding-top: 0px;
     }
 
     .price {
@@ -357,6 +363,16 @@ button:hover {
     .long-image, .long-image-2, .long-image-3  {
         height: 300px;
         width: 400px;
+    }
+
+    .section-subheading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .call-now-block {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
