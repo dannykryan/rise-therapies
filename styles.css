@@ -440,3 +440,19 @@ button:hover {
         text-align: center;
     }
 }
+
+@media (max-width: 888px) {
+    .long-image-2 {
+        height: 300px;
+        width: 400px;
+    }
+
+    #complete-antenatal-outer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #antenatal-text {
+        max-width: 650px;
+    }
+}
