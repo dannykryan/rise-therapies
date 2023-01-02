@@ -124,13 +124,14 @@ button:hover {
 .im-gem-box {
     display: flex;
     flex-direction: row;
-    height: 250px;
     padding: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo-header-box-2 {
-    height: 250px;
+    display: flex;
+    flex-direction: column;
 }
 
 .gem-and-sons {
@@ -163,7 +164,6 @@ button:hover {
     height: 75px;
     color: #fff9ed;
     font-size: 30px;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -280,6 +280,7 @@ button:hover {
     width: 50%;
     margin: 40px 20px 40px 20px;
     filter: drop-shadow(0 0 0.5rem #7d7b73);
+    background-repeat: no-repeat;
 }
 
 .long-image2 {
@@ -289,12 +290,73 @@ button:hover {
     width: 50%;
     margin: 40px 20px 40px 20px;
     filter: drop-shadow(0 0 0.5rem #7d7b73);
+    background-repeat: no-repeat;
 }
 
+.long-image-3 {
+    background-image: url("./Graphics/aromatherpy-drop.jpg");
+    background-position: center;
+    background-size: 500px;
+    width: 50%;
+    margin: 40px 20px 40px 20px;
+    filter: drop-shadow(0 0 0.5rem #7d7b73);
+    background-repeat: no-repeat;
+}
 
 @media (min-width: 1000px) {
     body{
         width: 1000px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .tagline {
+        margin-top: 30px;
+    }
+
+    .logo-header-box {
+        background-position: center;
+        background-image: url("./graphics/green-flower-bg.jpg")
+    }
+
+    .logo-header-box-1 {
+        width: 100%;
+    }
+
+    .im-gem-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gem-and-sons {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .logo-header-box-2 {
+        text-align: center;
+    }
+
+    .treatment-outer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .treatment-container {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .price {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .long-image, .long-image-2, .long-image-3  {
+        height: 300px;
+        width: 400px;
     }
 }
 
