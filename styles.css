@@ -353,9 +353,9 @@ button:hover {
     }
 
     .logo-header-box {
-        background-position: center;
+        background-position: 50% 50%;
         background-image: url("./graphics/green-flower-bg.jpg");
-        background-size: 500px;
+        background-size: 800px;
     }
 
     .logo-header-box-1 {
