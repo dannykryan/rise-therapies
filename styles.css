@@ -283,10 +283,10 @@ button:hover {
     background-repeat: no-repeat;
 }
 
-.long-image2 {
+.long-image-2 {
     background-image: url("./Graphics/magic-bowls.jpg");
-    background-position: center;
-    background-size: 500px;
+    background-position: 50% 90%;
+    background-size: 100%;
     width: 50%;
     margin: 40px 20px 40px 20px;
     filter: drop-shadow(0 0 0.5rem #7d7b73);
