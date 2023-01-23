@@ -388,6 +388,7 @@ button:hover {
 #new-mother-offer {
     outline: 2px dashed #395f50;
     outline-offset: -10px;
+    border: 0px;
 }
 
 /* ABOUT ME PAGE */
