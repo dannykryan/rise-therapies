@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #395f50;
 }
 
+a {
+    color: #75505f;
+}
+
 .foot-title {
 	position: relative;
 	padding: 0 0 10px;
@@ -165,6 +169,7 @@ button:hover {
 .logo-header-box-2 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .gem-and-sons {
