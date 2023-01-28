@@ -172,9 +172,16 @@ button:hover {
     justify-content: center;
 }
 
-.gem-and-sons {
+.im-gem-box-inner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.gemma-round {
     height: 250px;
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
@@ -182,13 +189,27 @@ button:hover {
     filter: drop-shadow(0 0 0.5rem #7d7b73);
 }
 
-.signed-text {
+.welcome-header {
+    margin-bottom: 0px;
+}
+
+.welcome-text {
     color: #395f50;
     font-size: 19px;
 }
 
+.signed-text {
+    font-size: 12pt;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .signature {
-    height: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* GREEN BODY LINKS BLOCK */
@@ -202,7 +223,7 @@ button:hover {
     height: 75px;
     color: #fff9ed;
     font-size: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .block-header {
@@ -221,7 +242,6 @@ button:hover {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 10px;
-    font-size: 25px;
 }
 
 #treatments img {
@@ -284,7 +304,6 @@ button:hover {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    border:2px solid #395f50;
 }
 
 
@@ -448,6 +467,23 @@ button:hover {
     .lg-logo {
         height: 60%
     }
+
+    .im-gem-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-header {
+        text-align: center;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .signed-text {
+        width: 300px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -458,11 +494,6 @@ button:hover {
 
     .hi {
         margin-bottom: 0px;
-    }
-
-    .im-gem-box{
-        flex-direction: column;
-        align-items: center;
     }
 
     .gem-and-sons {
