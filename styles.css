@@ -71,9 +71,9 @@ li, .navlink, button {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
-    /* padding: 30px, 10%; */
+    padding: 30px, 10%;
 }
 
 .nav-links li {
@@ -500,6 +500,11 @@ button:hover {
     .nav-logo {
         width: 0px;
     }
+
+    .nav-links {
+        padding: 0px;
+    }
+
 }
 
 #footer {
