@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #395f50;
 }
 
+h3 {
+    font-size: 16pt;
+}
+
 a {
     color: #75505f;
 }
@@ -395,6 +399,18 @@ button:hover {
     border-radius: 25px;
 }
 
+#triple-image {
+    filter: drop-shadow(0 0 0.25rem #7d7b73);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#triple-image img {
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
 #holistic-one-off {
     max-width: 100%;
 }
@@ -403,6 +419,7 @@ button:hover {
     outline: 2px dashed #395f50;
     outline-offset: -10px;
 }
+
 
 /* .special-outer p {
     color: #FFF9ED;
