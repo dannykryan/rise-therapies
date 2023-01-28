@@ -233,6 +233,7 @@ button:hover {
 
 .block-header {
     color: #fff9ed;
+    text-align: center;
 }
 
 /* END OF GREEN BODY LINKS BLOCK */
@@ -495,6 +496,12 @@ button:hover {
     }
 }
 
+@media (max-width: 400px) {
+    .nav-logo {
+        width: 0px;
+    }
+}
+
 #footer {
 	min-height: 100px;
     margin-top: 20px;
@@ -508,6 +515,10 @@ button:hover {
     #welcome-section{
         flex-direction: column;
         align-items: center;
+    }
+
+    .gemma-round {
+        height: 200px;
     }
 
     .welcome-header {
