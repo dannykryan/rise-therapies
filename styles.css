@@ -420,6 +420,9 @@ button:hover {
     outline-offset: -10px;
 }
 
+.special-header {
+    font-size: 32px;
+}
 
 /* .special-outer p {
     color: #FFF9ED;
