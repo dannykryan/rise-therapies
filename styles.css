@@ -13,6 +13,7 @@ h3 {
 
 a {
     color: #75505f;
+    font-family: "Lato", sans-serif;
 }
 
 .foot-title {
@@ -445,6 +446,11 @@ button:hover {
     border: 0px;
 }
 
+.privacy {
+    text-align: center;
+    font-size: 8pt;
+}
+
 /* ABOUT ME PAGE */
 
 .gemma-pic1 {
@@ -592,8 +598,17 @@ button:hover {
 	margin-right: auto;
 	margin-top: 20px;
 	text-align: center;
-    padding-bottom: 20px;
 }
+
+#contact-footer {
+    margin-bottom: 40px;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 ul {
     text-align: left;
