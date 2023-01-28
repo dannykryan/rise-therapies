@@ -112,7 +112,6 @@ button:hover {
     background-image: url("./Graphics/green-flower-bg.jpg");
     background-size: 1200px;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
 }
 
@@ -277,6 +276,8 @@ button:hover {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .contact-text {
@@ -285,6 +286,8 @@ button:hover {
     font-size: 30px;
     border-radius: 50px;
     padding: 7px;
+    font-weight: 400;
+    filter: drop-shadow(0 0 0.25rem #7d7b73);
 }
 
 .contact-link {
