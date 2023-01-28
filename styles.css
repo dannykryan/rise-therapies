@@ -354,7 +354,7 @@ button:hover {
     background-position: center;
     background-size: 500px;
     width: 50%;
-    margin: 40px 20px 40px 20px;
+    margin: 20px 20px 0px 20px;
     filter: drop-shadow(0 0 0.25rem #7d7b73);
     background-repeat: no-repeat;
     border-radius: 25px;
@@ -422,6 +422,7 @@ button:hover {
 .special-outer {
     outline: 2px dashed #395f50;
     outline-offset: -10px;
+    padding-bottom: 20px;
 }
 
 .special-header {
@@ -539,13 +540,12 @@ button:hover {
     }
 
     .treatment-outer {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
     .treatment-container {
         max-width: 100%;
-        padding-top: 0px;
     }
 
     .price {
@@ -553,9 +553,22 @@ button:hover {
         margin-right: auto;
     }
 
-    .long-image, .long-image-3  {
+    .long-image, .long-image-3, .long-image-5  {
         height: 300px;
         width: 400px;
+    }
+
+    .long-image-2, .long-image-4 {
+        height: 300px;
+        width: 400px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-size: 500px;
+    }
+
+    .long-image-2 {
+        background-position: 50% 70%;
+        height: 400px;
     }
 
     .section-subheading {
