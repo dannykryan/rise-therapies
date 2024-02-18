@@ -1,4 +1,4 @@
-# My Profile Website
+# Rise Therapies Website
 
 [![rise-header](/graphics/rise-header.png)](https://www.rise-therapies.co.uk)
 
@@ -6,7 +6,7 @@ Visit: [www.rise-therapies.com](https://www.rise-therapies.co.uk)
 
 ## Introduction
 
-This website was created on behalf of my client, a complementary therpaist and midwife based in Birmingham. 
+This website was created on behalf of my client, a complementary therpaist and midwife based in Birmingham.
 It was the first website I created in january 2023 after starting to learn HTML and CSS in September of 2022.
 
 As well as the code, I also designed the brand identity, logo and all of the graphics and also helped to writethe copy!
