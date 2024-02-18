@@ -11,7 +11,7 @@ It was the first website I created in january 2023 after starting to learn HTML 
 
 As well as the code, I also designed the brand identity, logo and all of the graphics and also helped to write the copy!
 
-Since creating this website, I have learned so much about frameworks, libraries, packages, etc. and if I were to build it today, I would no doubt do things very differently. However, the website is efficient, isn't overly engineered and is easyily modified so I think it serves it's purpose well.
+Since creating this website, I have learned so much about frameworks, libraries, packages, etc. and if I were to build it today, I would no doubt do things very differently. However, the website is efficient, isn't overly engineered and is easily modified so I think it serves it's purpose well.
 
 ## Installation
 
