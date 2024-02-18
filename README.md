@@ -9,7 +9,7 @@ Visit: [www.rise-therapies.com](https://www.rise-therapies.co.uk)
 This website was created on behalf of my client, a complementary therpaist and midwife based in Birmingham.
 It was the first website I created in january 2023 after starting to learn HTML and CSS in September of 2022.
 
-As well as the code, I also designed the brand identity, logo and all of the graphics and also helped to writethe copy!
+As well as the code, I also designed the brand identity, logo and all of the graphics and also helped to write the copy!
 
 Since creating this website, I have learned so much about frameworks, libraries, packages, etc. and if I were to build it today, I would no doubt do things very differently. However, the website is efficient, isn't overly engineered and is easyily modified so I think it serves it's purpose well.
 
