@@ -1,6 +1,6 @@
 # Rise Therapies Website
 
-[![rise-header](graphics/rise-header.png)](https://www.rise-therapies.co.uk)
+[![rise-header](/graphics/rise-header.png)](https://www.rise-therapies.co.uk)
 
 Visit: [www.rise-therapies.com](https://www.rise-therapies.co.uk)
 
